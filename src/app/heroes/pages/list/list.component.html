@@ -1,1 +1,12 @@
-<p>list works!</p>
+<div class="m-4">
+  <h1>Listado de Héroes</h1>
+  <mat-divider></mat-divider>
+  <br>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+    <div class="" *ngFor="let hero of heroes">
+      <app-hero-card [hero]="hero"></app-hero-card>
+    </div>
+  </div>
+</div>
+

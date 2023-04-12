@@ -11,10 +11,12 @@
           "inlineStyle": true
         },
         "@schematics/angular:module": {
-          "skipTests": true,
-          "flat": true
+          "skipTests": true
         },
         "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
           "skipTests": true
         }
       },
